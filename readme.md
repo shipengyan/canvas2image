@@ -18,3 +18,11 @@ you can just use it like this
     Canvas2Image.convertToJPEG(canvasObj, widht, height)
     Canvas2Image.convertToGIF(canvasObj, widht, height)
     Canvas2Image.convertToBMP(canvasObj, widht, height)
+    
+    
+    
+## 原理
+
+    function saveFile (strData) {
+		document.location.href = strData;
+	}
